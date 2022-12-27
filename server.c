@@ -115,8 +115,6 @@ int main(void)
 			exit(0);
 		}
 		close(new_fd);
-		close(sockfd);
-		return 0;
 	}
 
 	return 0;
